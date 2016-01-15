@@ -1,4 +1,7 @@
 (function (){
+
+window.Sprites = window.Sprites || {};
+
 var Sprite = function(context, img, pos, size, frameCount, frameIndex, framePos, frameSize, loopSpeed, loop){
 	this.ctx = context;
 	this.img = img;
